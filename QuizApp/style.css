@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #307efb; /* Light gray background */
+  }
+
+.app{
+    background-color: white;
+    width: 90%;
+    max-width: 600px;
+    margin: 100px auto 0;
+    border-radius: 10px;
+    padding: 30px;
+    color: black;
+
+}
+  
+  h1 {
+    text-align: center;
+    color: #333; /* Dark gray text */
+    font-size: 30px; /* Increase heading size */
+    background-color:#fff;
+  }
+  
+  #quiz-container {
+    border: 2px solid #ffffff; /* Lighter border */
+    padding: 20px;
+    margin: 20px auto;
+    width: 600px; /* Increase width slightly */
+    border-radius: 10px; /* More rounded corners */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
+  }
+  
+  #question {
+    margin-bottom: 15px;
+    font-weight: bold; /* Bold question text */
+  }
+  
+  #answer-choices {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap; /* Allow answers to wrap if needed */
+    justify-content: space-between; /* Evenly distribute answers */
+  }
+  
+  #answer-choices li {
+    margin-bottom: 10px;
+    padding: 10px 20px;
+    border: 1px solid #ddd; /* Border for each answer choice */
+    border-radius: 5px; /* Rounded corners for answers */
+    cursor: pointer; /* Hand cursor on hover */
+    background-color: #fff; /* White background for answer choices */
+  }
+  
+  #submit-button {
+    background-color: #000000; /* Darker green */
+    border: none;
+    color: white;
+    padding: 12px 25px; /* Slightly larger padding */
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    margin: 15px auto;
+    font-size: 16px; /* Increase button font size */
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out; /* Smooth hover effect */
+  }
+  
+  #submit-button:hover {
+    background-color: #327a33; /* Darker green on hover */
+  }
+  
+  #result {
+    text-align: center;
+    font-weight: bold;
+    margin-top: 20px; /* Add some space above the result */
+  }
+  
