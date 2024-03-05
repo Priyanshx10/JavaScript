@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color:azure;
+  }
+  
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .container {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  h3 {
+    margin-bottom: 10px;
+  }
+  
+  .task-list {
+    list-style: none;
+    padding: 10px;
+    margin: 0;
+  }
+  
+  .task-list li {
+    margin-bottom: 5px;
+  }
+  
+  .add-task {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    margin-top: 10px;
+    cursor: pointer;
+  }
+  
+  .add-task:hover {
+    background-color: #45A049; /* Green hover */
+  }
+  
+  .clear-list {
+    background-color: #FF0000; /* Red */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    margin-top: 10px;
+    cursor: pointer;
+  }
+  
+  .clear-list:hover {
+    background-color: #F00; /* Red hover */
+  }
+
+  .button-list{
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+
+  }
