@@ -37,3 +37,4 @@ console.log(iphonePrice)
 //Backticks implementation
 console.log(`you are ${age} years old.`)
 console.log(`the Iphone 14 prices : ${iphonePrice} only`)
+console.log( typeof age)
