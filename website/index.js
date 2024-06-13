@@ -11,4 +11,4 @@ window.alert("Learning JavaScript?")
  comment */
 
  document.getElementById('myH1').textContent = "Hello";
- document.getElementById('myP1').textContent = "World";
+ document.getElementById('myP1').textContent ;
