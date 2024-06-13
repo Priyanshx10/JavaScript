@@ -38,3 +38,24 @@ console.log(iphonePrice)
 console.log(`you are ${age} years old.`)
 console.log(`the Iphone 14 prices : ${iphonePrice} only`)
 console.log( typeof age)
+
+/* 
+String is a series of characters.
+*/
+
+// declaring string using double and single quotes.
+let firstName = "Priyansh"
+let lastName = ' Yadav'
+let email = "PriyanshYadav123@gmail.com"
+console.log(typeof firstName)
+console.log( typeof email)
+
+
+/* 
+Booleans are either true or false.
+typically used as flag in the programs. 
+*/
+
+let online = true
+console.log(typeof online)
+console.log(`You are online : ${online}`)
