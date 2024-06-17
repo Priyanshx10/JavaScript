@@ -119,3 +119,20 @@
 // // Evaluating an expression with various operators
 // let results = 1 + 2 * 3 + 4 ** 2; // 1 + (2 * 3) + (4 ** 2) = 1 + 6 + 16 = 23
 // console.log(results); // Logging the value of 'results'
+
+//How to accept user Input
+
+//1. THE EASY WAY : Window prompt
+
+let username ;
+username = window.prompt("what is your name ?")
+console.log(`my name is ${username}`)
+
+
+//2. THE PROFESSIONAL WAY : HTML textbox
+let proUsername;
+
+document.getElementById("mysubmit").onclick = function (){
+   proUsername = document.getElementById("mytext").value;
+   document.getElementById("myH2").textContent = `Hello ${proUsername}`
+}
