@@ -104,4 +104,14 @@ console.log(students)
 students--;
 console.log(students)
 
-//Operator Presidence
+/*
+
+Operator Precedence
+   1.parenthesis()
+   2.exponents
+   3.mulitplication and Division and Modulus
+   4. addition and Subtraction
+*/
+
+let results = 1 + 2 * 3 + 4 ** 2;
+console.log(results)  
