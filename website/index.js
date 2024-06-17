@@ -59,3 +59,49 @@ typically used as flag in the programs.
 let online = true
 console.log(typeof online)
 console.log(`You are online : ${online}`)
+
+
+document.getElementById("p1").textContent = firstName + lastName;
+document.getElementById("p2").textContent = ` you are ${age} years old.` ;
+
+/* 
+   arithmetic operators = operands( value , varialbe , etc) and Operators ( + - * /)  
+*/
+
+let students = 30;
+
+console.log(students)
+students = students + 12
+console.log(students)
+students = students - 2
+console.log(students)
+students = students / 2
+console.log(students)
+students = students * 2
+console.log(students)
+students = students ** 2
+console.log(students)
+let extraStudent = students % 2
+console.log(extraStudent)
+
+//Argumented assignment Operator
+students += 1;
+console.log(students)
+students -= 1;
+console.log(students)
+students *= 2;
+console.log(students)
+students /= 2;
+console.log(students)
+students %= 1;
+console.log(students)
+students **= 2;
+console.log(students)
+
+//Increment and Decreament Operator
+students++;
+console.log(students)
+students--;
+console.log(students)
+
+//Operator Presidence
